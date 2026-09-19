@@ -31,18 +31,15 @@ This topic contains the following sections:
  * Required Python: >=3.6
  * Customer Intelligence 360 Tenant with Administrative Rights
  * SAS CI360 API Core Library:<br>
-   https://gitlab.sas.com/psd-ci-enablement/sas_ci360_api_core
- * A SAS GitLab package registry deploy token with read access to the two internal projects above (this library is not published to public PyPI, since it depends on internal SAS packages)
+   https://github.com/mnelson3/sas_ci360_api_core
 <br><br>
 
 ### Installation
 
-To install the SAS CI360 API Marketing Execution Library:
- 1. Open a terminal window (Unix/macOS) or command prompt (Windows)
- 1. Copy and paste the following line at the cursor, substituting your own deploy token credentials<br>
-    pip install sasci360apimarketingexecution --extra-index-url https://\<DEPLOY_TOKEN_USERNAME\>:\<DEPLOY_TOKEN\>@gitlab.sas.com/api/v4/projects/49201/packages/pypi/simple
- 1. Press "Enter"<br>
-    The SAS CI360 API Marketing Execution Library should install
+To install the SAS CI360 API Marketing Execution Library from a clone of this repository:
+ 1. `git clone https://github.com/mnelson3/sas_ci360_api_marketing_execution.git`
+ 1. `cd sas_ci360_api_marketing_execution`
+ 1. `pip install .`
 <br><br>
 
 ### Getting Started
@@ -66,24 +63,18 @@ While this library is available for review, please note that it is considered a 
 For issues specific to sasci360apicore or sasci360apimarketingexecution try updating the libraries.
 
 To update sasci360apicore:
- 1. Open a terminal window (Unix/macOS) or command prompt (Windows)
+ 1. Pull the latest changes from a clone of the [sas_ci360_api_core](https://github.com/mnelson3/sas_ci360_api_core) repository
+ 1. Open a terminal window (Unix/macOS) or command prompt (Windows) in that clone
  1. Copy and paste the following line at the cursor<br>
-    pip uninstall sasci360apicore
- 1. Press "Enter"<br>
-    The SAS CI360 API Core Library should uninstall
- 1. Copy and paste the following line at the cursor, substituting your own deploy token credentials<br>
-    pip install sasci360apicore --extra-index-url https://\<DEPLOY_TOKEN_USERNAME\>:\<DEPLOY_TOKEN\>@gitlab.sas.com/api/v4/projects/35734/packages/pypi/simple
+    pip install --upgrade .
  1. Press "Enter"<br>
     The SAS CI360 API Core Library should install
 
 To update sasci360apimarketingexecution:
- 1. Open a terminal window (Unix/macOS) or command prompt (Windows)
+ 1. Pull the latest changes from a clone of this repository
+ 1. Open a terminal window (Unix/macOS) or command prompt (Windows) in that clone
  1. Copy and paste the following line at the cursor<br>
-    pip uninstall sasci360apimarketingexecution
- 1. Press "Enter"<br>
-    The SAS CI360 API Marketing Execution Library should uninstall
- 1. Copy and paste the following line at the cursor, substituting your own deploy token credentials<br>
-    pip install sasci360apimarketingexecution --extra-index-url https://\<DEPLOY_TOKEN_USERNAME\>:\<DEPLOY_TOKEN\>@gitlab.sas.com/api/v4/projects/49201/packages/pypi/simple
+    pip install --upgrade .
  1. Press "Enter"<br>
     The SAS CI360 API Marketing Execution Library should install
 <br><br>
