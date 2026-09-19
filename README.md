@@ -2,6 +2,8 @@
 
 ## SAS 360 API MARKETING EXECUTION LIBRARY
 
+> **Status: superseded.** This library has been replaced by [`sas-ci360-sol-execute`](https://github.com/mnelson3/sas-ci360-sol-execute) — the same Marketing Execution API, rebuilt with mockable unit tests, typed exceptions, and safer configuration defaults. This repo is kept for historical reference; start new work in `sas-ci360-sol-execute` instead.
+
 ### Overview
 
 The Marketing Execution API enables you to access and manage bulk task execution for various channel types like email and mobile in SAS Customer Intelligence 360. The Marketing Execution REST API provides a way to execute bulk tasks such as bulk email tasks and bulk mobile tasks. This is the same action as clicking the Run Now or Publish and Run Now buttons in a task.
