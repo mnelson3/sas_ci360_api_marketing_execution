@@ -2,7 +2,7 @@
 
 ## SAS 360 API MARKETING EXECUTION LIBRARY
 
-> **Status: superseded.** This library has been replaced by [`sas-ci360-sol-execute`](https://github.com/mnelson3/sas-ci360-sol-execute) — the same Marketing Execution API, rebuilt with mockable unit tests, typed exceptions, and safer configuration defaults. This repo is kept for historical reference; start new work in `sas-ci360-sol-execute` instead.
+> **Status: superseded.** This library has been replaced by [`sas-ci360-sol-execute`](https://github.com/mnelson3/sas-ci360-sol-execute) — the same Marketing Execution API, rebuilt with mockable unit tests, typed exceptions, and safer configuration defaults. This repo is kept for historical reference; start new work in `sas-ci360-sol-execute` instead. This repo's final implementation is frozen at the `archive/superseded` branch.
 
 ### Overview
 
